@@ -1,0 +1,10 @@
+{
+  "name": "custom-select",
+  "version": "0.0.0",
+  "homepage": "https://github.com/LoicGoyet/custom-select",
+  "authors": [
+    "Loic Goyet <loic@appventus.com>"
+  ],
+  "description": "A way to custom select elements in less",
+  "license": "MIT"
+}
