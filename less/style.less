@@ -31,7 +31,6 @@
     &:focus,
     &:active {
         border-color: @customSelect_borderColor-_state;
-        outline: 0;
     }
 
     select {
@@ -49,5 +48,11 @@
         appearance: none;
         padding-left: @customSelect_pHorizontal;
         padding-right: @customSelect-tag_diff * 2;
+
+        &:hover,
+        &:focus,
+        &:active {
+            outline: 0;
+        }
     }
 }
