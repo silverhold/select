@@ -1,0 +1,57 @@
+// Custom Select
+// =============
+
+// Resources
+// ---------
+
+@import 'parameters/module';
+@import 'parameters/theme';
+
+
+
+// Style
+////////
+
+.customSelect {
+    height: $customSelect_height;
+    overflow: hidden;
+    background-color: $customSelect_bgColor;
+    background-image: url(@customSelect-caret_img);
+    background-position: right $customSelect-caret_marginRight center;
+    background-repeat: no-repeat;
+    border-width: $customSelect_borderWidth;
+    border-style: solid;
+    border-color: $customSelect_borderColor;
+    -webkit-border-radius: $customSelect_borderRadius;
+    -moz-border-radius: $customSelect_borderRadius;
+    border-radius: $customSelect_borderRadius;
+
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $customSelect_borderColor-_state;
+    }
+
+    select {
+        cursor: pointer;
+        background: transparent;
+        width: 100% + $customSelect-tag_diff;
+        border: 0;
+        border-radius: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: $customSelect_height;
+        line-height: $customSelect_height;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding-left: $customSelect_pHorizontal;
+        padding-right: $customSelect-tag_diff * 2;
+
+        &:hover,
+        &:focus,
+        &:active {
+            outline: 0;
+        }
+    }
+}
