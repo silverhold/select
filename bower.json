@@ -1,10 +1,10 @@
 {
-  "name": "custom-selects",
+  "name": "trowel-select",
   "version": "0.0.0",
-  "homepage": "https://github.com/LoicGoyet/custom-selects",
+  "homepage": "https://github.com/Trowel/select",
   "authors": [
     "Loic Goyet <loic@appventus.com>"
   ],
-  "description": "A way to custom select elements in less",
+  "description": "A trowel component to display custom form select",
   "license": "MIT"
 }
