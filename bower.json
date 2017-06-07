@@ -1,10 +1,10 @@
 {
-  "name": "trowel-select",
+  "name": "silverhold-select",
   "version": "0.0.0",
-  "homepage": "https://github.com/Trowel/select",
+  "homepage": "https://github.com/silverhold/select",
   "authors": [
     "Loic Goyet <loic@appventus.com>"
   ],
-  "description": "A trowel component to display custom form select",
+  "description": "A silverhold component to display custom form select",
   "license": "MIT"
 }
